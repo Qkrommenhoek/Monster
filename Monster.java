@@ -15,11 +15,8 @@ public abstract class Monster {
         return xp;
     }
 
-    public boolean equals(Object object) {
-        if (this == object) return true;
-        if (!(object instanceof Monster monster)) return false;
-        if (!super.equals(object)) return false;
-        return java.util.Objects.equals(getHp(), monster.getHp()) && java.util.Objects.equals(getXp(), monster.getXp()) && java.util.Objects.equals(maxHP, monster.maxHP) && java.util.Objects.equals(getItems(), monster.getItems());
+    public boolean equals(Monster monster){
+        return this==monster;
     }
     public String toString(){
         return hp + "/" + maxHP;
