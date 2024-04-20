@@ -1,0 +1,14 @@
+<changelist name="Uncommitted_changes_before_Checkout_at_4_20_24,_8_30_AM_[Changes]1" date="1713627060576" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_4_20_24,_8_30_AM_[Changes]1/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Checkout at 4/20/24, 8:30 AM [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/Monster/MeleeAttack.class" />
+    <option name="AFTER_PATH" value="out/production/Monster/MeleeAttack.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_4_20_24,_8_30_AM_[Changes]1/MeleeAttack.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/Monster/RangedAttack.class" />
+    <option name="AFTER_PATH" value="out/production/Monster/RangedAttack.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_4_20_24,_8_30_AM_[Changes]1/RangedAttack.class" />
+  </binary>
+</changelist>
