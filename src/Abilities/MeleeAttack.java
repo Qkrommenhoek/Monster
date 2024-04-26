@@ -1,3 +1,7 @@
+package src.Abilities;
+
+import src.Monsters.Monster;
+
 public class MeleeAttack implements Attack{
     Monster attacker;
 
@@ -6,12 +10,12 @@ public class MeleeAttack implements Attack{
         this.attacker = attacker;
     }
 
-    //uses Attack.java to carry out an attack on a target monster
+    //uses src.Abilities.Attack.java to carry out an attack on a target monster
     @Override
     public Integer Attack(Monster target){
         String message = attacker+ " uses melee attack on "+target;
         System.out.println(message);
-        return null;
+        return attacker.getStr()-target.getDef();
     }
 
 

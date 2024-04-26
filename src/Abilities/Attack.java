@@ -1,3 +1,7 @@
+package src.Abilities;
+
+import src.Monsters.Monster;
+
 public interface Attack extends Ability {
     /*
     Template for future attacks accessed by attack classes

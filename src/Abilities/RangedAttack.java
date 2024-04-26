@@ -1,3 +1,7 @@
+package src.Abilities;
+
+import src.Monsters.Monster;
+
 public class RangedAttack implements Attack {
     Monster attacker;
 
@@ -6,11 +10,11 @@ public class RangedAttack implements Attack {
         this.attacker = attacker;
     }
 
-    //uses Attack.java to carry out an attack on a target monster
+    //uses src.Abilities.Attack.java to carry out an attack on a target monster
     @Override
     public Integer Attack(Monster target){
         String message = attacker+ " uses ranged attack on "+target;
         System.out.println(message);
-        return null;
+        return attacker.getAgility()-target.getAgility();
     }
 }
