@@ -21,6 +21,6 @@ public class Kobold extends Monster {
     }
     @Override
     public String toString(){
-        return "src.Monsters.Kobold has : " + super.toString();
+        return "Kobold has : " + super.toString();
     }
 }

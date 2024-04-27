@@ -4,16 +4,20 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a3fefeb-4be5-41c5-a489-dda92a4f8294" name="Changes" comment="javadoc comments">
+    <list default="true" id="0a3fefeb-4be5-41c5-a489-dda92a4f8294" name="Changes" comment="Almost done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ability.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Abilities/Ability.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Attack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Abilities/Attack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Imp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Monsters/Imp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kobold.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Monsters/Kobold.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MeleeAttack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Abilities/MeleeAttack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Monster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Monsters/Monster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RangedAttack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Abilities/RangedAttack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Monster/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Monster/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Monster/Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Monster/Driver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Monster/Imp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Monster/Kobold.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Monster/MeleeAttack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Monster/Monster.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Abilities/MeleeAttack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Abilities/MeleeAttack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Abilities/RangedAttack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Abilities/RangedAttack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Monsters/Imp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Monsters/Imp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Monsters/Kobold.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Monsters/Kobold.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Monsters/Monster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Monsters/Monster.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +99,7 @@
       <workItem from="1713627621443" duration="307000" />
       <workItem from="1713637329999" duration="7000" />
       <workItem from="1713842895485" duration="94000" />
-      <workItem from="1714153480591" duration="2452000" />
+      <workItem from="1714153480591" duration="5006000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -137,7 +141,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713627813402</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Almost done">
+      <option name="closed" value="true" />
+      <created>1714160813590</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1714160813590</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,6 +171,7 @@
     <MESSAGE value="part1" />
     <MESSAGE value="part2" />
     <MESSAGE value="javadoc comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="javadoc comments" />
+    <MESSAGE value="Almost done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Almost done" />
   </component>
 </project>

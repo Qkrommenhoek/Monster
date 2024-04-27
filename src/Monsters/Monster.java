@@ -20,6 +20,9 @@ public abstract class Monster {
         hp = this.maxHP;
         this.xp = xp;
         this.items = items;
+        this.str = 10;
+        this.def = 10;
+        this.agility = 10;
     }
     Integer getAttribute(Integer min, Integer max){
         Random rand = new Random();
@@ -40,6 +43,7 @@ public abstract class Monster {
             System.out.println(this);
             return false;
         }
+        System.out.println(this);
         return true;
     }
     public Integer attackTarget(Monster target){

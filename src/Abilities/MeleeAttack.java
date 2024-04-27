@@ -13,7 +13,7 @@ public class MeleeAttack implements Attack{
     //uses src.Abilities.Attack.java to carry out an attack on a target monster
     @Override
     public Integer Attack(Monster target){
-        String message = attacker+ " uses melee attack on "+target;
+        String message = attacker+ " uses melee attack on "+target.toString();
         System.out.println(message);
         return attacker.getStr()-target.getDef();
     }

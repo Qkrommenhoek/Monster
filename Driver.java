@@ -19,7 +19,7 @@ public class Driver {
         }
         while(monsters.get(0).getHp()>0&&monsters.get(1).getHp()>0){
             System.out.println(monsters.get(0).attackTarget(monsters.get(1)));
-            System.out.println(monsters.get(0).attackTarget(monsters.get(1)));
+            System.out.println(monsters.get(1).attackTarget(monsters.get(0)));
         }
     }
 
