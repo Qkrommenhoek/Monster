@@ -38,7 +38,7 @@ public abstract class Monster {
             System.out.println("The creature was hit for "+damage+" damage");
             this.hp-=damage;
         }
-        if(this.hp<0){
+        if(this.hp<=0){
             System.out.println("Oh no! The creature has perished");
             System.out.println(this);
             return false;
